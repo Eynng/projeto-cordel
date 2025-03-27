@@ -50,16 +50,21 @@ header > p {
 
 /* HEADER + FOOTER DO SITE*/
 
-header a,
-footer a {
+header a {
   text-decoration: none;
   color: white;
   font-weight: bolder;
 }
 
+footer a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-weight: bolder;
+}
+
 header a:hover,
 footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* SECTIONS DO SITE */
@@ -117,5 +122,5 @@ footer {
 }
 
 footer > a.curso {
-  color: rgb(30, 0, 197);
+  color: rgb(59, 32, 209);
 }
